@@ -1,0 +1,15 @@
+<ul>
+
+  <% @pokemons.each do |pokemon| %>
+    <li><%= pokemon %></li>
+  <% end %>
+
+</ul>
+
+<form method="post">
+  <label for="pokemon">POKEMON</label>
+  <input type="text" name="pokemon" id="pokemon">
+
+  <input type="submit" value="CATCH">
+
+</form>
